@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -22,8 +22,8 @@ html {
   display: flex;
   width: 100%;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .banner__img {
@@ -86,7 +86,7 @@ html {
   padding: 2rem;
   border: none;
   -webkit-box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.46);
-          box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.46);
+  box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.46);
   cursor: pointer;
   -webkit-transition: .2s;
   transition: .2s;
@@ -166,11 +166,11 @@ html {
 
 .gallery__top--first {
   -webkit-filter: sepia(100%);
-          filter: sepia(100%);
+  filter: sepia(100%);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   position: absolute;
   top: 2rem;
   left: 2rem;
@@ -181,12 +181,12 @@ html {
 
 .gallery__top--first:hover {
   -webkit-filter: sepia(0);
-          filter: sepia(0);
+  filter: sepia(0);
 }
 
 .gallery__top--second {
   -webkit-filter: sepia(100%);
-          filter: sepia(100%);
+  filter: sepia(100%);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   position: absolute;
@@ -199,12 +199,12 @@ html {
 
 .gallery__top--second:hover {
   -webkit-filter: sepia(0);
-          filter: sepia(0);
+  filter: sepia(0);
 }
 
 .gallery__top--third {
   -webkit-filter: sepia(100%);
-          filter: sepia(100%);
+  filter: sepia(100%);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   position: absolute;
@@ -217,7 +217,7 @@ html {
 
 .gallery__top--third:hover {
   -webkit-filter: sepia(0);
-          filter: sepia(0);
+  filter: sepia(0);
 }
 
 .gallery__button--blue {
@@ -233,7 +233,7 @@ html {
   padding: 2rem;
   border: none;
   -webkit-box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.46);
-          box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.46);
+  box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.46);
   cursor: pointer;
   -webkit-transition: .2s;
   transition: .2s;
@@ -242,4 +242,5 @@ html {
 .gallery__button--blue:hover {
   font-size: 4.5rem;
 }
+
 /*# sourceMappingURL=style.css.map */
